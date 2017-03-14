@@ -8,13 +8,15 @@
 
 /* Begin PBXBuildFile section */
 		2B1D28B31E73822000740A9F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B1D28B21E73822000740A9F /* AppDelegate.swift */; };
-		2B1D28B51E73822000740A9F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B1D28B41E73822000740A9F /* ViewController.swift */; };
+		2B1D28B51E73822000740A9F /* TipViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B1D28B41E73822000740A9F /* TipViewController.swift */; };
 		2B1D28B81E73822000740A9F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2B1D28B61E73822000740A9F /* Main.storyboard */; };
 		2B1D28BB1E73822100740A9F /* tipster.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 2B1D28B91E73822100740A9F /* tipster.xcdatamodeld */; };
 		2B1D28BD1E73822100740A9F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2B1D28BC1E73822100740A9F /* Assets.xcassets */; };
 		2B1D28C01E73822100740A9F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2B1D28BE1E73822100740A9F /* LaunchScreen.storyboard */; };
 		2B1D28CB1E73822100740A9F /* tipsterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B1D28CA1E73822100740A9F /* tipsterTests.swift */; };
 		2B1D28D61E73822100740A9F /* tipsterUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B1D28D51E73822100740A9F /* tipsterUITests.swift */; };
+		2B1D28E41E7767D000740A9F /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B1D28E31E7767D000740A9F /* SettingsViewController.swift */; };
+		2B1D28E61E779E6500740A9F /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 2B1D28E51E779E6500740A9F /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,7 +39,7 @@
 /* Begin PBXFileReference section */
 		2B1D28AF1E73822000740A9F /* tipster.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = tipster.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2B1D28B21E73822000740A9F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		2B1D28B41E73822000740A9F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		2B1D28B41E73822000740A9F /* TipViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TipViewController.swift; sourceTree = "<group>"; };
 		2B1D28B71E73822000740A9F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		2B1D28BA1E73822100740A9F /* tipster.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = tipster.xcdatamodel; sourceTree = "<group>"; };
 		2B1D28BC1E73822100740A9F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -49,6 +51,8 @@
 		2B1D28D11E73822100740A9F /* tipsterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = tipsterUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2B1D28D51E73822100740A9F /* tipsterUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tipsterUITests.swift; sourceTree = "<group>"; };
 		2B1D28D71E73822100740A9F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2B1D28E31E7767D000740A9F /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		2B1D28E51E779E6500740A9F /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +83,7 @@
 		2B1D28A61E73822000740A9F = {
 			isa = PBXGroup;
 			children = (
+				2B1D28E51E779E6500740A9F /* README.md */,
 				2B1D28B11E73822000740A9F /* tipster */,
 				2B1D28C91E73822100740A9F /* tipsterTests */,
 				2B1D28D41E73822100740A9F /* tipsterUITests */,
@@ -100,8 +105,9 @@
 			isa = PBXGroup;
 			children = (
 				2B1D28B21E73822000740A9F /* AppDelegate.swift */,
-				2B1D28B41E73822000740A9F /* ViewController.swift */,
+				2B1D28B41E73822000740A9F /* TipViewController.swift */,
 				2B1D28B61E73822000740A9F /* Main.storyboard */,
+				2B1D28E31E7767D000740A9F /* SettingsViewController.swift */,
 				2B1D28BC1E73822100740A9F /* Assets.xcassets */,
 				2B1D28BE1E73822100740A9F /* LaunchScreen.storyboard */,
 				2B1D28C11E73822100740A9F /* Info.plist */,
@@ -262,9 +268,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2B1D28B51E73822000740A9F /* ViewController.swift in Sources */,
+				2B1D28B51E73822000740A9F /* TipViewController.swift in Sources */,
 				2B1D28B31E73822000740A9F /* AppDelegate.swift in Sources */,
+				2B1D28E61E779E6500740A9F /* README.md in Sources */,
 				2B1D28BB1E73822100740A9F /* tipster.xcdatamodeld in Sources */,
+				2B1D28E41E7767D000740A9F /* SettingsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
