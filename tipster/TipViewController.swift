@@ -36,6 +36,7 @@ class TipViewController: UIViewController {
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
 //        print("view will appear")
+        subtotalField.becomeFirstResponder()
     }
     
     override func viewDidAppear(_ animated: Bool) {
