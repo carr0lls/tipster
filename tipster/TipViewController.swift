@@ -75,9 +75,12 @@ class TipViewController: UIViewController {
         let subtotal = Double(subtotalField.text!) ?? 0
         let tip = Double(subtotal * tipPercentages[tipChoice.selectedSegmentIndex])
         let total = Double(subtotal + tip)
-            
-        tipLabel.text = String(format: "$%.2f", tip)
-        totalLabel.text = String(format: "$%.2f", total)
+        let numberFormatter = NumberFormatter()
+        
+        numberFormatter.numberStyle = NumberFormatter.Style.currency
+        
+        tipLabel.text = numberFormatter.string(from: NSNumber(value: tip))
+        totalLabel.text = numberFormatter.string(from: NSNumber(value: total))
     }
     
 }
